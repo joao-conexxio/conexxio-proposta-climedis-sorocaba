@@ -1,0 +1,11 @@
+{
+  "candidatas": [
+    {
+      "arquivo": "midia/cand-01.jpg",
+      "largura": 1400,
+      "altura": 466,
+      "origem": "https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-hostgator-brasil-v1-0-9%2F129%2F171129%2FLGgNohjk%2F5d862f80d9ab43e19748b09f2fb18eff&methods=resize%2C2000%2C5000"
+    }
+  ],
+  "folha": "midia/folha.png"
+}

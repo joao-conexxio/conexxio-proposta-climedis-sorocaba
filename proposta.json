@@ -1,0 +1,303 @@
+{
+  "slug": "climedis-sorocaba",
+  "negocio": {
+    "nome": "Climedis",
+    "whatsapp": "551532323649",
+    "logo": "brand/logo.png",
+    "unidades": [
+      {
+        "bairro": "Centro",
+        "endereco": "R. Saldanha Marinho, 38 – Centro, Sorocaba – SP, 18035-050",
+        "telefone": "(15) 3232-3649",
+        "horario": "Seg a sex a partir das 8h (quarta a partir das 7h) até as 18h · sábado das 7h ao meio-dia"
+      }
+    ],
+    "funcionamento": {
+      "seg": "08:00-18:00",
+      "ter": "08:00-18:00",
+      "qua": "07:00-18:00",
+      "qui": "08:00-18:00",
+      "sex": "08:00-18:00",
+      "sab": "07:00-12:00",
+      "dom": null
+    }
+  },
+  "marca": {
+    "brand": "#00a3a5",
+    "brand2": "#4fa3a5",
+    "ink": "#263238",
+    "bg": "#ffffff",
+    "radius": "6px",
+    "registro": "clinico",
+    "fontDisplay": "Julius Sans One",
+    "fontBody": "Nunito",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "ecg",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Exames",
+            "href": "#exames"
+          },
+          {
+            "texto": "Terapias",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Pilates",
+            "href": "#pilates"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Centro de Sorocaba",
+        "h1": "Consulta e exame no centro, com ou sem plano",
+        "lead": "Mais de 15 especialidades médicas, exames do coração, fisioterapia e Pilates no mesmo endereço da Saldanha Marinho. Quem não tem plano paga um valor acessível; quem tem, confere a lista de convênios.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver os exames",
+        "ctaSecundarioHref": "#exames",
+        "arte": "grao",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada da Climedis na Rua Saldanha Marinho, com o logo e os telefones na parede",
+        "tarja": [
+          "Na Saldanha Marinho desde 2019",
+          "4,6 no Google · 914 avaliações",
+          "Mais de 15 especialidades",
+          "Sábado das 7h ao meio-dia"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "nomes",
+      "data": {
+        "titulo": "Convênios e cartões de desconto atendidos",
+        "itens": [
+          "NotreDame Intermédica",
+          "Amil",
+          "SulAmérica Saúde",
+          "Porto Saúde",
+          "Funserv",
+          "Assefaz",
+          "Fenix Planos de Saúde",
+          "Ágape Saúde",
+          "Danamed",
+          "Amhemed",
+          "Ossel Assistência",
+          "Ofebas"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Quem somos",
+        "texto": [
+          "A Climedis abriu em 2019 no centro de Sorocaba pensando em quem não tem plano de saúde e mesmo assim precisa ver um médico sem esperar meses.",
+          "Por isso a consulta, o exame e a terapia ficam no mesmo prédio, com preço que dá para pagar e uma recepção que explica tudo antes."
+        ]
+      }
+    },
+    {
+      "custom": "blocos/exames-coracao.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "O que Sorocaba já disse sobre a Climedis",
+        "itens": [
+          {
+            "valor": "4,6",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "914",
+            "rotulo": "avaliações de pacientes",
+            "contar": 914
+          },
+          {
+            "valor": "15+",
+            "rotulo": "especialidades médicas"
+          },
+          {
+            "valor": "2019",
+            "rotulo": "o ano em que a clínica abriu"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Terapias e reabilitação",
+        "lead": "Para depois da consulta: tratar a dor, recuperar o movimento, cuidar da cabeça.",
+        "itens": [
+          {
+            "nome": "Fisioterapia",
+            "descricao": "Reabilitação depois de lesão, cirurgia ou dor que não passa, com exercícios acompanhados.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Acupuntura",
+            "descricao": "Agulhas finas em pontos definidos, usadas no tratamento da dor e da tensão.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Osteopatia",
+            "descricao": "Tratamento manual das articulações, músculos e coluna para devolver mobilidade.",
+            "icone": "coluna"
+          },
+          {
+            "nome": "Psicologia on-line",
+            "descricao": "Sessões por vídeo, feitas de casa, marcadas pela mesma recepção.",
+            "icone": "conversa"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/pilates.html"
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Como marcar",
+        "titulo": "Marcar é uma conversa curta",
+        "lead": "Mande o que precisa pelo WhatsApp. A recepção responde com o valor, o convênio e o horário livre.",
+        "cta": "Chamar a recepção",
+        "contato": "Climedis · Recepção",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Não tenho convênio. Quanto fica uma consulta com cardiologista?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Te passo o valor particular agora. Se precisar de eletro, dá para fazer aqui mesmo."
+          },
+          {
+            "de": "paciente",
+            "texto": "Sábado de manhã tem horário?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Tem sim, abrimos às 7h. Posso reservar para você?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "numerados",
+      "data": {
+        "titulo": "Do WhatsApp ao resultado",
+        "itens": [
+          {
+            "titulo": "Chame a recepção",
+            "texto": "Diga a especialidade ou o exame e se vai usar convênio, cartão de desconto ou particular.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Escolha o horário",
+            "texto": "Seg a sex até as 18h, e aos sábados de manhã.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Venha à Saldanha Marinho",
+            "texto": "Consulta e exame no mesmo endereço, no centro.",
+            "icone": "local"
+          },
+          {
+            "titulo": "Siga o tratamento",
+            "texto": "Fisioterapia, acupuntura ou Pilates, se o médico indicar, sem trocar de clínica.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas que chegam na recepção",
+        "itens": [
+          {
+            "p": "Preciso ter plano de saúde?",
+            "r": "Não. A clínica foi pensada para quem paga particular, com valor acessível. Se você tem um dos convênios ou cartões de desconto atendidos, também pode usar."
+          },
+          {
+            "p": "Quais convênios vocês aceitam?",
+            "r": "NotreDame Intermédica, Amil, SulAmérica, Porto Saúde, Funserv, Assefaz, Fenix, Ágape, Danamed, Amhemed, Ossel e Ofebas. Confirme com a recepção se o seu plano cobre o procedimento."
+          },
+          {
+            "p": "Abre no sábado?",
+            "r": "Abre, das 7h ao meio-dia. Durante a semana o atendimento vai até as 18h; na quarta, começa às 7h."
+          },
+          {
+            "p": "Como funciona o Pilates?",
+            "r": "Aulas de 45 minutos em aparelhos profissionais, com turmas de manhã, tarde e noite. Planos de 1, 2 ou 3 vezes por semana, de R$ 190 a R$ 300 por mês."
+          },
+          {
+            "p": "Faço o exame no mesmo dia da consulta?",
+            "r": "Depende do exame e da agenda do dia. Pergunte na hora de marcar que a recepção tenta encaixar os dois juntos."
+          },
+          {
+            "p": "A psicologia é presencial?",
+            "r": "É on-line, por vídeo. Você faz a sessão de casa."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Na Saldanha Marinho, no centro",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Precisa de um médico esta semana?",
+        "lead": "Mande uma mensagem e a recepção responde com valor e horário.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          {
+            "texto": "Instagram",
+            "href": "https://www.instagram.com/clinicaclimedis/"
+          },
+          {
+            "texto": "Facebook",
+            "href": "https://www.facebook.com/clinicaclimedis/"
+          }
+        ]
+      }
+    }
+  ]
+}

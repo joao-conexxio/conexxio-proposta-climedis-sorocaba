@@ -1,0 +1,47 @@
+<section class="blk-pil" id="pilates">
+  <div class="wrap blk-pil__grid">
+    <div class="blk-pil__cab" data-reveal>
+      <p class="blk-pil__eyebrow"><span class="blk-pil__ico"><!--icone:coluna--></span> Pilates na Climedis</p>
+      <h2 class="blk-pil__titulo">Aula de 45 minutos, com o preço na mesa</h2>
+      <p class="blk-pil__lead" data-acende>Sala climatizada e reformada, aparelhos profissionais de madeira maciça e turmas de manhã, de tarde e à noite. Você escolhe quantas vezes por semana e já sabe quanto vai pagar no mês.</p>
+    </div>
+    <ul class="blk-pil__planos">
+      <li class="blk-pil__plano" data-reveal style="--d:0ms">
+        <p class="blk-pil__freq"><strong>1x</strong> por semana</p>
+        <p class="blk-pil__preco"><span>R$</span><b data-count="190">190</b><span>/mês</span></p>
+      </li>
+      <li class="blk-pil__plano blk-pil__plano--meio" data-reveal style="--d:90ms">
+        <p class="blk-pil__freq"><strong>2x</strong> por semana</p>
+        <p class="blk-pil__preco"><span>R$</span><b data-count="240">240</b><span>/mês</span></p>
+      </li>
+      <li class="blk-pil__plano" data-reveal style="--d:180ms">
+        <p class="blk-pil__freq"><strong>3x</strong> por semana</p>
+        <p class="blk-pil__preco"><span>R$</span><b data-count="300">300</b><span>/mês</span></p>
+      </li>
+    </ul>
+    <p class="blk-pil__nota" data-reveal>Os três planos têm horários de manhã, tarde e noite, em aparelhos profissionais.</p>
+  </div>
+</section>
+
+<style>
+.blk-pil{padding-block:var(--sp-section)}
+.blk-pil__grid{display:grid;gap:var(--sp-4)}
+.blk-pil__eyebrow{display:flex;align-items:center;gap:.5rem;margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-pil__ico{display:inline-flex;width:1.4rem;height:1.4rem}
+.blk-pil__ico svg{width:100%;height:100%}
+.blk-pil__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-pil__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;max-width:40rem;color:var(--ink-soft)}
+.blk-pil__planos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-pil__plano{display:flex;align-items:center;justify-content:space-between;gap:var(--sp-2);padding:var(--sp-3) var(--sp-4);border:1px solid var(--line);border-radius:var(--r-lg);background:var(--bg)}
+.blk-pil__plano--meio{border-color:color-mix(in srgb,var(--brand) 55%,transparent);background:color-mix(in srgb,var(--brand) 7%,var(--bg))}
+.blk-pil__freq{margin:0;color:var(--ink-soft)}
+.blk-pil__freq strong{font-family:var(--f-display);font-size:1.6rem;color:var(--ink);margin-right:.25rem}
+.blk-pil__preco{margin:0;display:flex;align-items:baseline;gap:.2rem;color:var(--brand)}
+.blk-pil__preco span{font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-pil__preco b{font-family:var(--f-display);font-size:clamp(2rem,6vw,2.6rem);line-height:1;font-weight:600}
+.blk-pil__nota{margin:0;font-size:var(--t-sm);color:var(--ink-dim)}
+@media (min-width:60rem){
+  .blk-pil__grid{grid-template-columns:1fr 1fr;align-items:center;column-gap:var(--sp-6,4rem)}
+  .blk-pil__nota{grid-column:2}
+}
+</style>
